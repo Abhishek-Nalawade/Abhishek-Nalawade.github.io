@@ -1,0 +1,458 @@
+/* styling for whole page */
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body{
+  /*background: #eee;*/
+  /*background-image: url(../images/background1.png);*/
+  background-image: url(../images/background.png);
+}
+
+/* creates a boundary for left and right side */
+.wrapper {
+  margin: 0 auto 0 60px;           /* first value is for top and second is forks
+                                  bottom third for right and fourht for left*/
+  width: 90%;
+}
+
+/* creates a navigation bar */
+.navbar-one {
+  /*background: #fff;*/
+  width: 100%;              /* covers the complete width of page */
+  height: 100px;
+}
+
+/* creates a navigation bar */
+.navbar-two {
+  position: absolute;
+  left: 40;
+  /*background: #fff;*/
+  width: 18%;              /* covers the complete width of page */
+  height: 100%;
+}
+
+/* moves entire navigation bar */
+ul {
+  margin-left: 60px;
+}
+
+/* styling for list */
+ul li {
+  list-style: none;         /* removes the dots when a list is created */
+  display: inline-block;    /* makes the list to appear in one line */
+  /*float: left;*/          /* will make the clickable gap between hyperlinks disappear */
+  line-height: 100px;       /* centers the list text according to the nav height */
+}
+
+/* styling for anchor tags */
+ul li a {
+  display: block;           /* increases text clickable little area above and below the area */
+  text-decoration: none;    /* removes underlines on hyperlink texts */
+  font-size: 20px;
+  padding: 0 20px;          /* separates the hyperlink texts */
+}
+
+/* changes the color of the hyperlinks in list when we hover the mouse over it */
+ul li a:hover {
+  color: red;
+}
+
+/* the outer div is given relative position and the inner ones are given absolute */
+/* outer box */
+.box {
+    position: relative;;     /* the outer box in heirarchy is given absolute
+                              position and the inner ones are given relative*/
+    top: 10px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /*outline: 2px dashed blue;*/
+}
+
+/* box for my photo */
+.box .myphoto {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  width: 500px;
+  height: 700px;
+  background-image: url(../images/photo1.jpg);
+  background-size: 100%;
+  /*outline: 2px dashed blue;*/
+}
+
+/* box for about me section */
+.box .aboutme {
+  position: absolute;
+  top: 0px;
+  left: 700px;
+  /*outline: 2px dashed blue;*/
+}
+
+.education {
+  position: relative;
+  left: 0px;
+  top: 80px;
+}
+
+.education .UMD {
+  position: absolute;
+}
+
+.education .VIT {
+  position: absolute;
+  top: 60px;
+}
+/* Styling for Projects Page */
+
+/* styles names in the navigation bar */
+.computer-vision {
+  position: relative;
+  outline: 1px solid gray;
+}
+
+/* styles the hyperlink */
+.computer-vision a {
+  display: block;               /* increases the clickable area to the whole div */
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  /*color: black;*/
+  text-decoration: none;        /* removes underlines from hyperlinks */
+}
+
+/* styles the div when hovered with mouse */
+.computer-vision:hover a {
+  background-color: #f3f3f3;
+  font-size: 22px;
+  color: red;
+}
+
+/* styles names in navigation bar */
+.machine-learning {
+  position: relative;
+  outline: 1px solid gray;
+}
+
+/* styles the hyperlink */
+.machine-learning a {
+  display: block;               /* increases the clickable area to the whole div */
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  /*color: black;*/
+  text-decoration: none;        /* removes underlines from hyperlinks */
+}
+
+/* styles the div when hovered with mouse */
+.machine-learning:hover a {
+  background-color: #f3f3f3;
+  font-size: 22px;
+  color: red;
+}
+
+/* styles names in navigation bar */
+.path-planning {
+  position: relative;
+  outline: 1px solid gray;
+}
+
+/* styles the hyperlink */
+.path-planning a {
+  display: block;               /* increases the clickable area to the whole div */
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  /*color: black;*/
+  text-decoration: none;        /* removes underlines from hyperlinks */
+}
+
+/* styles the div when hovered with mouse */
+.path-planning:hover a {
+  background-color: #f3f3f3;
+  font-size: 22px;
+  color: red;
+}
+
+/* styles names in navigation bar */
+.software-development {
+  position: relative;
+  outline: 1px solid gray;
+}
+
+/* styles the hyperlink */
+.software-development a {
+  display: block;               /* increases the clickable area to the whole div */
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  /*color: black;*/
+  text-decoration: none;        /* removes underlines from hyperlinks */
+}
+
+/* styles the div when hovered with mouse */
+.software-development:hover a {
+  background-color: #f3f3f3;
+  font-size: 22px;
+  color: red;
+}
+
+/* styles names in navigation bar */
+.gokart {
+  position: relative;
+  outline: 1px solid gray;
+}
+
+/* styles the hyperlink */
+.gokart a {
+  display: block;               /* increases the clickable area to the whole div */
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  /*color: black;*/
+  text-decoration: none;        /* removes underlines from hyperlinks */
+}
+
+/* styles the div when hovered with mouse */
+.gokart:hover a {
+  background-color: #f3f3f3;
+  font-size: 22px;
+  color: red;
+}
+
+/* Achievement tab which is the gokart tab */
+#BasePage {
+  display: block;
+  position: relative;
+  left: 100px;
+}
+
+/* styles the hidden div with id visionprojects */
+#visionprojects {
+  display: none;
+  position: relative;
+  left: 290px;
+  width: 85%;
+}
+
+/* styles the project artag */
+#visionprojects .ArTag {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 20px;
+}
+
+/* styles the project histogram equalization */
+#visionprojects .HistogramEqualization {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 510px;
+}
+
+/* styles the project lane detection */
+#visionprojects .LaneDetection {
+  position: absolute;
+  width: 450px;
+  top: 220px;
+  left: 20px;
+}
+
+/* styles the project depth estimation */
+#visionprojects .DepthEstimation {
+  position: absolute;
+  width: 450px;
+  top: 220px;
+  left: 510px;
+}
+
+/* styles the project Optical Flow */
+#visionprojects .VGG16 {
+  position: absolute;
+  width: 450px;
+  top: 420px;
+  left: 20px;
+}
+
+/* styles the project VGG16 */
+/*#visionprojects .VGG16 {
+  position: absolute;
+  width: 450px;
+  top: 420px;
+  left: 510px;
+}*/
+
+
+
+/* styles the hidden div with id MLprojects */
+#MLprojects {
+  display: none;
+  position: relative;
+  left: 290px;
+  width: 85%;
+}
+
+/* styles the project PCA */
+#MLprojects .PCA {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 20px;
+}
+
+/* styles the project MDA */
+#MLprojects .MDA {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 510px;
+}
+
+/* styles the project Bayes Classifier */
+#MLprojects .BayesClassifier {
+  position: absolute;
+  width: 450px;
+  top: 220px;
+  left: 20px;
+}
+
+/* styles the project kNN */
+#MLprojects .kNN {
+  position: absolute;
+  width: 450px;
+  top: 220px;
+  left: 510px;
+}
+
+/* styles the project SVM */
+#MLprojects .SVM {
+  position: absolute;
+  width: 450px;
+  top: 420px;
+  left: 20px;
+}
+
+/* styles the project BoostedSVM */
+#MLprojects .BoostedSVM {
+  position: absolute;
+  width: 450px;
+  top: 420px;
+  left: 510px;
+}
+
+
+
+/* styles the hidden div with id planningprojects */
+#planningprojects {
+  display: none;
+  position: relative;
+  left: 290px;
+  width: 85%;
+}
+
+/* styles the project 15 puzzle problem */
+#planningprojects .puzzle {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 20px;
+}
+
+/* styles the project BFS */
+#planningprojects .BFS {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 510px;
+}
+
+/* styles the project Dijkstra */
+#planningprojects .Dijkstra {
+  position: absolute;
+  width: 450px;
+  top: 220px;
+  left: 20px;
+}
+
+/* styles the project AstarTurtlebot */
+#planningprojects .AstarTurtlebot {
+  position: absolute;
+  width: 450px;
+  top: 220px;
+  left: 510px;
+}
+
+/* styles the project RRT */
+#planningprojects .RRTstar {
+  position: absolute;
+  width: 450px;
+  top: 420px;
+  left: 20px;
+}
+
+/* styles the hidden div with id softwareprojects */
+#softwareprojects {
+  display: none;
+  position: relative;
+  left: 290px;
+  width: 85%;
+}
+
+/* styles the project Human Obstacle Detector */
+#softwareprojects .HumanObstacleDetector {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 20px;
+}
+
+/* styles the project beginnertutorials */
+/*#softwareprojects .beginnertutorials {
+  position: absolute;
+  width: 450px;
+  top: 0px;
+  left: 510px;
+}*/
+
+
+
+/* styles the main hidden tab of gokart */
+#gokart {
+  display: none;
+  position: relative;
+  left: 290px;
+  width: 85%;
+}
+
+/* styles the photos of kart */
+#gokart .ISKphoto {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 550px;  /*575px;*/
+  height: 412px;  /*430px;*/
+  background-image: url(../images/isk.jpg);
+  background-size: 100%;
+}
+
+/* styles the photo of kart */
+#gokart .Kartphoto {
+  position: absolute;
+  top: 81px;
+  left: 590px;
+  width: 550px;
+  height: 310px;
+  background-image: url(../images/nkrc.jpg);
+  background-size: 100%;
+}
+
+/* styles the description of the competition */
+#gokart .achievementDescription {
+  position: relative;
+  left: 0px;
+  top: 450px;
+}
