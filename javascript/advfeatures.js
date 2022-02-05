@@ -34,7 +34,7 @@ function expandcollapse(mainID, activity) {
     // increase the height of div if its hidden or vice versa
     if (i==0){
       if (!x.style.height || x.style.height == "0px") {
-        x.style.height = "400px";
+        x.style.height = "440px";
       } else {
         x.style.height = "0px";
       }
