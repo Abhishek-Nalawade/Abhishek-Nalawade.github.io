@@ -154,6 +154,103 @@ body{
     }
   }
 
+  /* enables smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* styles the whole experience box */
+  .experience {
+    position: relative;
+    left: 0px;
+    top: 80px;
+    width: 100%;
+    height: 600px;
+    /* outline: 2px dashed red; */
+  }
+
+  .experience .line11 {
+    border-bottom: 2px solid #B8B8B8;
+    display: block;
+    width: 60%;
+    margin: 500px 0 20% 20%;
+  }
+
+  /* styles the header of whole experience div */
+  .experience #head0 {
+    text-align: center;
+    color: #FF4900;
+    /* font-size: 24px; */
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the box for STL inside experience */
+  .experience .STL {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 550px;
+    /* outline: 2px dashed orange; */
+  }
+
+  /* stlyes the names of the companies */
+  .experience #companyName {
+    color: #58A6FF;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the STL logo */
+  .experience .STL .STLlogo {
+    position: absolute;
+    top: 40px;
+    /* left: 2%; */
+    width: 110px;
+    height: 48px;
+    background-image: url(../images/STLlogo.png);
+    background-size: cover;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the whole box for STL postion name */
+  .experience #positionName {
+    font-size: 14px;
+  }
+
+  .experience #positionToolsUsed {
+    position: absolute;
+    /* left: 220px; */
+    font-size: 14px;
+    top: 22px;
+    font-style: italic;
+  }
+
+  /* styles the whole box for STL postion name */
+  .experience #positionDuration {
+    position: absolute;
+    left: 68%;
+    top: 0;
+    font-style: italic;
+  }
+
+  /* styles the whole box for STL work information */
+  .experience .STL .STLinfo {
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 35%;
+    width: 70%;
+    height: 400px;
+    /* font-size: 18px; */
+    transition: ease-out 0.4s;
+    animation: anim4 1s;
+    /* outline: 2px dashed red; */
+  }
+
+  .experience .STL .STLinfo ul {
+    margin-left: 20px;
+  }
+
+
   .education {
     position: relative;
     left: 0px;
@@ -537,27 +634,27 @@ body{
   #BasePage .barron {
     position: absolute;
     width: 90%;
-    top: 0px;
+    top: 50px;
   }
 
   /* styles the project kPCA */
   #BasePage .kPCA {
     position: absolute;
     width: 90%;
-    top: 450px;
+    top: 500px;
   }
 
   /* styles the project clustering */
   #BasePage .clustering {
     position: absolute;
     width: 90%;
-    top: 900px;
+    top: 950px;
   }
 
   #BasePage .robothand {
     position: absolute;
     width: 90%;
-    top: 1350px;
+    top: 1400px;
   }
 
   /* styles the hidden div with id visionprojects */
@@ -580,35 +677,35 @@ body{
   #visionprojects .ArTag {
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 50px;
   }
 
   /* styles the project histogram equalization */
   #visionprojects .PbLite {
     position: absolute;
     width: 100%;
-    top: 450px;
+    top: 500px;
   }
 
   /* styles the project lane detection */
   #visionprojects .LaneDetection {
     position: absolute;
     width: 100%;
-    top: 900px;
+    top: 950px;
   }
 
   /* styles the project depth estimation */
   #visionprojects .DepthEstimation {
     position: absolute;
     width: 100%;
-    top: 1350px;
+    top: 1400px;
   }
 
   /* styles the project Histogram Equalization */
   #visionprojects .HistogramEqualization {
     position: absolute;
     width: 100%;
-    top: 1800px;
+    top: 1850px;
   }
 
 
@@ -772,35 +869,35 @@ body{
   #planningprojects .puzzle {
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 50px;
   }
 
   /* styles the project BFS */
   #planningprojects .BFS {
     position: absolute;
     width: 100%;
-    top: 450px;
+    top: 500px;
   }
 
   /* styles the project Dijkstra */
   #planningprojects .Dijkstra {
     position: absolute;
     width: 100%;
-    top: 900px;
+    top: 950px;
   }
 
   /* styles the project AstarTurtlebot */
   #planningprojects .AstarTurtlebot {
     position: absolute;
     width: 100%;
-    top: 1350px;
+    top: 1400px;
   }
 
   /* styles the project RRT */
   #planningprojects .RRTstar {
     position: absolute;
     width: 100%;
-    top: 1800px;
+    top: 1850px;
     /* left: 20px; */
   }
 
@@ -824,7 +921,7 @@ body{
   #softwareprojects .HumanObstacleDetector {
     position: absolute;
     width: 100%;
-    top: 0px;
+    top:50px;
     /* left: 20px; */
   }
 
@@ -832,14 +929,14 @@ body{
   #softwareprojects .TDD {
     position: absolute;
     width: 100%;
-    top: 600px;
+    top: 650px;
   }
 
   /* styles the project beginnertutorials */
   #softwareprojects .beginnertutorials {
     position: absolute;
     width: 100%;
-    top: 1100px;
+    top: 1150px;
   }
 
 
@@ -1041,10 +1138,107 @@ body{
     }
   }
 
-  .education {
+  /* enables smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* styles the whole experience box */
+  .experience {
     position: relative;
     left: 0px;
     top: 80px;
+    width: 100%;
+    height: 600px;
+    /* outline: 2px dashed red; */
+  }
+
+  .experience .line11 {
+    border-bottom: 2px solid #B8B8B8;
+    display: block;
+    width: 60%;
+    margin: 570px 0 20% 20%;
+  }
+
+  /* styles the header of whole experience div */
+  .experience #head0 {
+    text-align: center;
+    color: #FF4900;
+    font-size: 24px;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the box for STL inside experience */
+  .experience .STL {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 550px;
+    /* outline: 2px dashed orange; */
+  }
+
+  /* stlyes the names of the companies */
+  .experience #companyName {
+    color: #58A6FF;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the STL logo */
+  .experience .STL .STLlogo {
+    position: absolute;
+    top: 40px;
+    /* left: 2%; */
+    width: 200px;
+    height: 87px;
+    background-image: url(../images/STLlogo.png);
+    background-size: cover;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the whole box for STL postion name */
+  .experience #positionName {
+    font-size: 20px;
+  }
+
+  .experience #positionToolsUsed {
+    position: absolute;
+    /* left: 220px; */
+    font-size: 20px;
+    top: 22px;
+    font-style: italic;
+  }
+
+  /* styles the whole box for STL postion name */
+  .experience #positionDuration {
+    position: absolute;
+    left: 68%;
+    top: 0;
+    font-style: italic;
+  }
+
+  /* styles the whole box for STL work information */
+  .experience .STL .STLinfo {
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 30%;
+    width: 72%;
+    height: 400px;
+    font-size: 18px;
+    transition: ease-out 0.4s;
+    animation: anim4 1s;
+    /* outline: 2px dashed red; */
+  }
+
+  .experience .STL .STLinfo ul {
+    margin-left: 20px;
+  }
+
+
+  .education {
+    position: relative;
+    left: 0px;
+    top: 90px;
   }
 
 
@@ -1396,7 +1590,7 @@ body{
   #BasePage {
     display: block;
     position: relative;
-    left: 18%;
+    left: 20%;
     width: 85%;
     font-size: 16px;
     animation: anim4 1s forwards;
@@ -1422,7 +1616,7 @@ body{
   #BasePage .barron {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 4%;
     /* outline: 2px dashed red; */
   }
@@ -1431,7 +1625,7 @@ body{
   #BasePage .kPCA {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 75%;
   }
 
@@ -1439,14 +1633,14 @@ body{
   #BasePage .clustering {
     position: absolute;
     width: 65%;
-    top: 500px;
+    top: 550px;
     left: 4%;
   }
 
   #BasePage .robothand {
     position: absolute;
     width: 65%;
-    top: 500px;
+    top: 550px;
     left: 75%;
   }
 
@@ -1454,7 +1648,7 @@ body{
   #visionprojects {
     display: none;
     position: relative;
-    left: 18%;
+    left: 20%;
     width: 85%;
     font-size: 16px;
     animation: anim3 1s;
@@ -1470,7 +1664,7 @@ body{
   #visionprojects .ArTag {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 4%;
   }
 
@@ -1478,7 +1672,7 @@ body{
   #visionprojects .PbLite {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 75%;
   }
 
@@ -1486,7 +1680,7 @@ body{
   #visionprojects .LaneDetection {
     position: absolute;
     width: 65%;
-    top: 500px;
+    top: 550px;
     left: 4%;
   }
 
@@ -1494,7 +1688,7 @@ body{
   #visionprojects .DepthEstimation {
     position: absolute;
     width: 65%;
-    top: 500px;
+    top: 550px;
     left: 75%;
   }
 
@@ -1502,7 +1696,7 @@ body{
   #visionprojects .HistogramEqualization {
     position: absolute;
     width: 65%;
-    top: 1000px;
+    top: 1050px;
     left: 20px;
   }
 
@@ -1511,7 +1705,7 @@ body{
   #MLprojects {
     display: none;
     position: relative;
-    left: 18%;
+    left: 20%;
     width: 100%;
     font-size: 16px;
     animation: anim3 1s;
@@ -1660,7 +1854,7 @@ body{
   #planningprojects {
     display: none;
     position: relative;
-    left: 18%;
+    left: 20%;
     width: 85%;
     font-size: 16px;
     animation: anim3 1s;
@@ -1676,7 +1870,7 @@ body{
   #planningprojects .puzzle {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 4%;
   }
 
@@ -1684,7 +1878,7 @@ body{
   #planningprojects .BFS {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 75%;
   }
 
@@ -1692,7 +1886,7 @@ body{
   #planningprojects .Dijkstra {
     position: absolute;
     width: 65%;
-    top: 500px;
+    top: 550px;
     left: 4%;
   }
 
@@ -1700,7 +1894,7 @@ body{
   #planningprojects .AstarTurtlebot {
     position: absolute;
     width: 65%;
-    top: 500px;
+    top: 550px;
     left: 75%;
   }
 
@@ -1708,7 +1902,7 @@ body{
   #planningprojects .RRTstar {
     position: absolute;
     width: 65%;
-    top: 1000px;
+    top: 1050px;
     left: 4%;
   }
 
@@ -1716,7 +1910,7 @@ body{
   #softwareprojects {
     display: none;
     position: relative;
-    left: 18%;
+    left: 20%;
     width: 85%;
     font-size: 16px;
     animation: anim3 1s;
@@ -1732,7 +1926,7 @@ body{
   #softwareprojects .HumanObstacleDetector {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 4%;
   }
 
@@ -1740,7 +1934,7 @@ body{
   #softwareprojects .TDD {
     position: absolute;
     width: 65%;
-    top: 0px;
+    top: 50px;
     left: 75%;
   }
 
@@ -1748,7 +1942,7 @@ body{
   #softwareprojects .beginnertutorials {
     position: absolute;
     width: 65%;
-    top: 620px;
+    top: 670px;
     left: 4%;
   }
 
@@ -1758,7 +1952,7 @@ body{
   #gokart {
     display: none;
     position: relative;
-    left: 18%;
+    left: 20%;
     width: 85%;
     animation: anim3 1s;
     /* outline: 2px dashed red; */
@@ -1955,11 +2149,105 @@ body{
     }
   }
 
+  /* enables smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* styles the whole experience box */
+  .experience {
+    position: relative;
+    left: 0px;
+    top: 80px;
+    width: 100%;
+    height: 600px;
+    /* outline: 2px dashed red; */
+  }
+
+  .experience .line11 {
+    border-bottom: 2px solid #B8B8B8;
+    display: block;
+    width: 60%;
+    margin: 570px 0 20% 20%;
+  }
+
+  /* styles the header of whole experience div */
+  .experience #head0 {
+    text-align: center;
+    color: #FF5A17;
+    font-size: 24px;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the box for STL inside experience */
+  .experience .STL {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    /* outline: 2px dashed orange; */
+  }
+
+  /* stlyes the names of the companies */
+  .experience #companyName {
+    color: #58A6FF;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the STL logo */
+  .experience .STL .STLlogo {
+    position: absolute;
+    top: 40px;
+    left: 5%;
+    width: 402px;
+    height: 176px;
+    background-image: url(../images/STLlogo.png);
+    background-size: cover;
+    /* outline: 2px dashed red; */
+  }
+
+  /* styles the whole box for STL postion name */
+  .experience #positionName {
+    font-size: 20px;
+  }
+
+  .experience #positionToolsUsed {
+    position: absolute;
+    left: 220px;
+    font-size: 20px;
+    top: 0;
+    font-style: italic;
+  }
+
+  /* styles the whole box for STL postion name */
+  .experience #positionDuration {
+    position: absolute;
+    left: 70%;
+    top: 0;
+    font-style: italic;
+  }
+
+  /* styles the whole box for STL work information */
+  .experience .STL .STLinfo {
+    position: absolute;
+    display: block;
+    left: 40%;
+    width: 62%;
+    height: 400px;
+    font-size: 18px;
+    transition: ease-out 0.4s;
+    animation: anim4 1s;
+    /* outline: 2px dashed red; */
+  }
+
+  .experience .STL .STLinfo ul {
+    margin-left: 20px;
+  }
+
   /* styles the whole education box */
   .education {
     position: relative;
     left: 0px;
-    top: 80px;
+    top: 100px;
     width: 100%;
     height: 600px;
     /* outline: 2px dashed red; */
@@ -2351,14 +2639,14 @@ body{
   #BasePage .barron {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 2%;
   }
 
   #BasePage .kPCA {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 51%;
 
   }
@@ -2397,7 +2685,7 @@ body{
   #visionprojects .ArTag {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 2%;
     /* font-size: 18px; */
   }
@@ -2406,7 +2694,7 @@ body{
   #visionprojects .PbLite {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 51%;
   }
 
@@ -2607,7 +2895,7 @@ body{
   #planningprojects .puzzle {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 2%;
   }
 
@@ -2615,7 +2903,7 @@ body{
   #planningprojects .BFS {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 51%;
   }
 
@@ -2623,7 +2911,7 @@ body{
   #planningprojects .Dijkstra {
     position: absolute;
     width: 47%;
-    top: 420px;
+    top: 470px;
     left: 2%;
   }
 
@@ -2631,7 +2919,7 @@ body{
   #planningprojects .AstarTurtlebot {
     position: absolute;
     width: 47%;
-    top: 420px;
+    top: 470px;
     left: 51%;
   }
 
@@ -2639,7 +2927,7 @@ body{
   #planningprojects .RRTstar {
     position: absolute;
     width: 47%;
-    top: 820px;
+    top: 870px;
     left: 2%;
   }
 
@@ -2663,7 +2951,7 @@ body{
   #softwareprojects .HumanObstacleDetector {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 2%;
   }
 
@@ -2671,7 +2959,7 @@ body{
   #softwareprojects .TDD {
     position: absolute;
     width: 47%;
-    top: 0px;
+    top: 50px;
     left: 51%;
   }
 
@@ -2679,7 +2967,7 @@ body{
   #softwareprojects .beginnertutorials {
     position: absolute;
     width: 47%;
-    top: 530px;
+    top: 580px;
     left: 2%;
   }
 
